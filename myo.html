@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Make Your Own!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #fcd7de;
+        }
+        h1 {
+            margin-top: 50px;
+            color: #ff69b4;
+        }
+        p {
+            margin: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .page-title {
+            margin-top: 50px;
+            color: #ff69b4;
+        }
+        .text-content {
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #ff69b4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        select,
+        input[type="radio"],
+        textarea {
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        select:focus,
+        input[type="radio"]:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #ff69b4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">Make Your Own!</h1>
+        <div class="text-content">
+            <p>Ready to create your custom smoothie? Use the interactive form below to craft your unique blend.</p>
+        </div>
+        
+        <form>
+            <div class="form-group">
+                <label for="base-fruit">Select a base fruit:</label>
+                <select id="base-fruit" name="base-fruit">
+                    <option value="banana">Banana</option>
+                    <option value="strawberry">Strawberry</option>
+                    <option value="blueberry">Blueberry</option>
+                    <option value="mango">Mango</option>
+                    <option value="pineapple">Pineapple</option>
+                    <option value="kiwi">Kiwi</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="additional-fruit"></label>
+                <select id="additional-fruit" name="additional-fruit" multiple>
+                    <option value="apple">Apple</option>
+                    <option value="orange">Orange</option>
+                    <option value="raspberry">Raspberry</option>
+                    <option value="grape">Grape</option>
+                    <option value="pear">Pear</option>
+                    <option value="watermelon">Watermelon</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="sweetener">Select a sweetener:</label>
+                <input type="radio" id="honey" name="sweetener" value="honey">
+                <label for="honey">Honey</label>
+                <input type="radio" id="maple-syrup" name="sweetener" value="maple-syrup">
+                <label for="maple-syrup">Maple Syrup</label>
+                <input type="radio" id="agave" name="sweetener" value="agave">
+                <label for="agave">Agave</label>
+            </div>
+
+            <div class="form-group">
+                <label for="extras"></label>
+                <select id="extras" name="extras" multiple>
+                    <option value="spinach">Spinach</option>
+                    <option value="protein-powder">Protein Powder</option>
+                    <option value="chia-seeds">Chia Seeds</option>
+                    <option value="yogurt">Yogurt</option>
+                    <option value="coconut-milk">Coconut Milk</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="instructions">Special instructions:</label>
+                <textarea id="instructions" name="instructions" rows="4"></textarea>
+            </div>
+
+            <div class="form-group">
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Blend!</title>
+                </head>
+                <body>
+                
+                    <a href="results.html">Blend!</a>
+                
+                </body>
+                </html>
+                            </div>
+        </form>
+    </div>
+</body>
+</html>
